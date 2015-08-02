@@ -1,0 +1,8 @@
+.DS_Store
+pkg
+http-proxy
+cover.out
+*.test
+dist
+.vagrant/
+config.json
