@@ -23,7 +23,7 @@ type Config struct {
 }
 
 func main() {
-	configJson := flag.String("config", "", "The location fo the JOSN config file")
+	configJson := flag.String("config", "", "The location fo the JSON config file")
 	flag.Parse()
 
 	file, err := ioutil.ReadFile(*configJson)
